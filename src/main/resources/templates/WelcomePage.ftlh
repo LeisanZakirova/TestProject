@@ -8,9 +8,11 @@
 <div class="block">
   <h1>Добро пожаловать!</h1>
 
-  <form>
-    <button>Войти в систему</button>
+  <form method = "post">
+    <button>Sign Up</button>
   </form>
+
+
 </div>
 
 </body>
