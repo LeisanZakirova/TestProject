@@ -14,9 +14,15 @@ public class WelcomePageController {
         return "WelcomePage";
     }
 
-    @PostMapping
-    public String postWelcomePage(){
-        return "redirect:/signUp";
-    }
+    //@PostMapping
+    //public String postWelcomePage(){
+    //    if (name = "Sign Up") {
+    //        return "redirect:/signUp";
+    //    } else if (value = "Sign In") {
+    //        return "redirect:/signIn";
+    //    }
+
+    //}
 
 }
+
