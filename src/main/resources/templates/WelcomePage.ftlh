@@ -6,11 +6,16 @@
 </head>
 <body>
 <div class="block">
-  <h1>Добро пожаловать!</h1>
+    <h1>Добро пожаловать!</h1>
 
-  <form method = "post">
-    <button>Sign Up</button>
-  </form>
+    <form>
+        <a href="/signIn">Sign In</a>
+    </form>
+
+    <form>
+        <a href="/signUp">Sign Up</a>
+    </form>
+
 
 
 </div>
@@ -19,14 +24,14 @@
 </html>
 
 <style>
-  .block {
-    height: 350px;
-    width: 350px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom:0;
-    margin: auto;
-  }
+    .block {
+        height: 350px;
+        width: 350px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom:0;
+        margin: auto;
+    }
 </style>
