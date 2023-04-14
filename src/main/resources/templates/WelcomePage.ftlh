@@ -8,10 +8,13 @@
 <div class="block">
   <h1>Добро пожаловать!</h1>
 
-  <form method = "post">
-    <button>Sign Up</button>
-  </form>
+    <form>
+        <a href="/signIn">Sign In</a>
+    </form>
 
+    <form>
+        <a href="/signUp">Sign Up</a>
+    </form>
 
 </div>
 
