@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="block1" >
-    <h1>Page for Admin</h1>
+    <h1>Page for User</h1>
 
 </div>
 </body>

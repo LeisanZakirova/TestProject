@@ -16,5 +16,6 @@ public class TestProjectApplication {
         @Bean
         public PasswordEncoder passwordEncoder() {
             return new BCryptPasswordEncoder(12);
-    }
+        }
+
 }

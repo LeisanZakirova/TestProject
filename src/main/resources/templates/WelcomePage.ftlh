@@ -16,8 +16,6 @@
         <a href="/signUp">Sign Up</a>
     </form>
 
-
-
 </div>
 
 </body>
