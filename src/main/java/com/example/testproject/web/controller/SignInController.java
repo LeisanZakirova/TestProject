@@ -14,18 +14,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class SignInController {
     @Autowired
     private final AccountUserDetailsService accountUserDetailsService;
+
     @Autowired
     public SignInController(AccountUserDetailsService accountUserDetailsService) {
         this.accountUserDetailsService = accountUserDetailsService;
     }
+
     @GetMapping
-    public String getSignInPage(Authentication authentication){
-        if(authentication != null) {
-            if (authentication.getAuthorities().stream()
-                    .anyMatch(a -> a.getAuthority().equals("ADMIN"))) {
-                return "redirect:/pageForAdmin";
-            }
-            return "redirect:/pageForUser";
+    public String getSignInPage(Authentication authentication) {
+        if (authentication != null) {
+            return "redirect:/";
         }
         return "SignIn";
     }
+}

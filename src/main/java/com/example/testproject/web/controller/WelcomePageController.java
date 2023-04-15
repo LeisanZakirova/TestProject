@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class WelcomePageController {
 
     @GetMapping
-    public String getWelcomePage(){
+    public String getWelcomePage() {
         return "WelcomePage";
     }
+
+}

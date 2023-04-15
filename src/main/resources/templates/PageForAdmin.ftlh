@@ -8,6 +8,10 @@
 <div class="block1" >
     <h1>Page for Admin</h1>
 
+    <form action="/pageOfCarsForAdmin" method="GET">
+        <button type="submit">Просмотреть список машин</button>
+    </form>
+
 </div>
 </body>
 </html>
