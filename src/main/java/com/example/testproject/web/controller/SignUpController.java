@@ -30,7 +30,7 @@ public class SignUpController {
                          @RequestParam String email,
                          @RequestParam String password){
         signUpServiceImpl.SignUp(firstName, lastName, email, password);
-        return "redirect:/signIn";
+        return "redirect:/";
     }
 
 }

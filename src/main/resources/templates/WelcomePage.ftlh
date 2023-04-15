@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="block">
-  <h1>Добро пожаловать!</h1>
+    <h1>Добро пожаловать!</h1>
 
     <form>
         <a href="/signIn">Sign In</a>
@@ -22,14 +22,14 @@
 </html>
 
 <style>
-  .block {
-    height: 350px;
-    width: 350px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom:0;
-    margin: auto;
-  }
+    .block {
+        height: 350px;
+        width: 350px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom:0;
+        margin: auto;
+    }
 </style>
