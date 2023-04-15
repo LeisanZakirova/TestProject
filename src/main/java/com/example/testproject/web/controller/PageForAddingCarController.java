@@ -29,5 +29,6 @@ public class PageForAddingCarController {
         carService.createCar(car);
         return "redirect:/pageOfCarsForAdmin";
     }
+    
 
 }
