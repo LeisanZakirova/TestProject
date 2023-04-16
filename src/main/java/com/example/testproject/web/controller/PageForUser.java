@@ -1,7 +1,6 @@
 package com.example.testproject.web.controller;
 
 import com.example.testproject.web.model.Car;
-import com.example.testproject.web.repositories.CarRepository;
 import com.example.testproject.web.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
