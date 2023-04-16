@@ -8,19 +8,25 @@
 <div class="block1" >
     <h1>Page for User</h1>
 
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>brand</th>
+            <th>color</th>
+            <th>model</th>
+        </tr>
+        <#list cars as car>
+            <tr>
+                <th>${car.id}</th>
+                <th>${car.brand}</th>
+                <th>${car.model}</th>
+                <th>${car.color}</th>
+                <th>
+                </th>
+            </tr>
+        </#list>
+    </table>
+
 </div>
 </body>
 </html>
-
-<style>
-    .block1 {
-        height: 350px;
-        width: 350px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-</style>
