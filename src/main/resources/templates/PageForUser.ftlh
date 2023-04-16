@@ -64,6 +64,25 @@
         </#list>
     </table>
 
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>brand</th>
+            <th>color</th>
+            <th>model</th>
+        </tr>
+        <#list cars as car>
+            <tr>
+                <th>${car.id}</th>
+                <th>${car.brand}</th>
+                <th>${car.model}</th>
+                <th>${car.color}</th>
+                <th>
+                </th>
+            </tr>
+        </#list>
+    </table>
+
 </div>
 </body>
 </html>
