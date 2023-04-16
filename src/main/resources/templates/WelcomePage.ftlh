@@ -9,11 +9,11 @@
     <h1>Добро пожаловать!</h1>
 
     <form>
-        <a href="/signIn">Sign In</a>
+        <button><a href="/signIn">Sign In</a></button>
     </form>
 
     <form>
-        <a href="/signUp">Sign Up</a>
+        <button><a href="/signUp">Sign Up</a></button>
     </form>
 
 </div>

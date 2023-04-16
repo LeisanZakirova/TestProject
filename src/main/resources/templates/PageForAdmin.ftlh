@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SignUp</title>
+    <title>Page for Admin</title>
+
 </head>
 <body>
 <div class="block1" >
