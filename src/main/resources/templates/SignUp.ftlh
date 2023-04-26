@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<#import "spring.ftl" as spring/>
 <head>
     <meta charset="UTF-8">
-    <title>SignUp</title>
+    <title><@spring.message 'signUp.page.title'/></title>
 </head>
 <body>
 <div class="block1" >
-    <h1 >Sign Up Page</h1>
-    <h2>Please Enter your data:</h2>
+    <h1 ><@spring.message 'signUp.page.header'/></h1>
+    <h2><@spring.message 'signUp.page.description'/></h2>
     <form action="signUp" method="post">
-        <label for="firstName">Enter firstName:</label>
-        <input type="firstName" id="firstName" name="firstName" placeholder="Your firstName">
+        <@spring.bind path="signUpForm"/>
+        <label for="firstName"><@spring.message 'signUp.form.label.enterFirstName'/></label>
+        <#assign i18Tooltip><@spring.message code="signUp.form.placeholder.firstName"/></#assign>
+        <@spring.formInput "signUpForm.firstName" "placeholder=${i18Tooltip}"/>
         <br>
-        <label for="lastName">Enter lastName:</label>
-        <input type="lastName" id="lastName" name="lastName" placeholder="Your lastName">
+        <label for="lastName"><@spring.message 'signUp.form.label.enterLastName'/></label>
+        <#assign i18Tooltip><@spring.message code="signUp.form.placeholder.lastName"/></#assign>
+        <@spring.formInput "signUpForm.lastName" "placeholder=${i18Tooltip}"/>
         <br>
-        <label for="email">Enter email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email">
+        <label for="email"><@spring.message 'signUp.form.label.email'/></label>
+        <#assign i18Tooltip><@spring.message code="signUp.form.placeholder.email"/></#assign>
+        <@spring.formInput "signUpForm.email" "placeholder=${i18Tooltip}"/>
         <br>
-        <label for="password">Enter password:</label>
-        <input type="password" id="password" name="password" placeholder="Your password">
+        <label for="password"><@spring.message 'signUp.form.label.password'/></label>
+        <#assign i18Tooltip><@spring.message code="signUp.form.placeholder.password"/></#assign>
+        <@spring.formInput "signUpForm.password" "placeholder=${i18Tooltip}"/>
         <input type="submit" value="Sign Up">
     </form>
 </div>
